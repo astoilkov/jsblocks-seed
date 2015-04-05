@@ -1,0 +1,11 @@
+{
+  "name": "project-name",
+  "description": "",
+  "version": "",
+  "homepage": "",
+  "licence": "",
+  "private": true,
+  "dependencies": {
+    "blocks": ""
+  }
+}
