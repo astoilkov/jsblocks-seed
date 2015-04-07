@@ -1,4 +1,7 @@
 # Folders
 .idea
-node_modules
-app/bower_components
+/node_modules
+/app/bower_components
+
+# Files
+.DS_Store
