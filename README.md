@@ -1,6 +1,6 @@
 # jsblocks-seed
 
-Starting template for a jsblocks project
+Starting template for jsblocks project
 
 ## Run the project
 
@@ -54,5 +54,5 @@ The rendering is enabled by running app.js file which creates an express applica
 The command below executes `node app.js` and then navigates to http://localhost:8000 in your browser.
 
 ```
-npm start-node
+npm run node
 ```

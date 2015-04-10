@@ -1,4 +1,6 @@
-var App = blocks.Application();
+var App = blocks.Application({
+  history: 'pushState'
+});
 
 App.View('Home', {
   options: {

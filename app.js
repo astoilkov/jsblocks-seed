@@ -1,2 +1,4 @@
 var blocks = require('blocks');
-var app = blocks.serverApplication();
+
+// enables server-side rendering
+blocks.server();
