@@ -26,7 +26,8 @@ npm start
 
 ### app directory
 
-The app directory contains all files needed to run the application. The idea is to be able to use the app folder individually without the need of the files in the root directory:
+The app directory contains all files needed to run the application.
+The idea is to be able to use the app folder individually without the need of the files in the root directory:
 
 ```
 js/             --> Place all your JavaScript files here. Recommended: use bower for external libraries
@@ -38,7 +39,7 @@ bower.json      --> Manages bower components. For more information about bower v
 
 ### root directory
 
-The root directory contains helper files if the project will be hosted on GitHub and app.js file which enables server-side rendering of the application:
+The root directory contains project helper files:
 
 ```
 app.js          --> The code used to run the application with server-side rendering
@@ -51,7 +52,7 @@ LICENCE         --> The licence of this project
 ## Server-side rendering
 
 The rendering is enabled by running app.js file which creates an express application.
-The command below executes `node app.js` and then navigates to http://localhost:8000 in your browser.
+The command below executes `node app.js` and then navigates to `http://localhost:8000` in your browser.
 
 ```
 npm run node
