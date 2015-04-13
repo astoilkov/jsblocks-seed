@@ -22,6 +22,15 @@ npm install
 npm start
 ```
 
+## Server-side rendering
+
+The rendering is enabled by running app.js file which creates an express application.
+The command below executes `node app.js` and then navigates to `http://localhost:8000` in your browser.
+
+```
+npm run node
+```
+
 ## Application structure
 
 ### app directory
@@ -47,13 +56,4 @@ package.json    --> Manages npm packages. For more information about npm visit h
 .gitignore      --> File describing which files and folders to be skipped when pushing to GitHub
 README.md       --> This file
 LICENCE         --> The licence of this project
-```
-
-## Server-side rendering
-
-The rendering is enabled by running app.js file which creates an express application.
-The command below executes `node app.js` and then navigates to `http://localhost:8000` in your browser.
-
-```
-npm run node
 ```
